@@ -1,6 +1,13 @@
-# Chatbot (text based)
-# @author M Currie 
-# @version 1.0
+"""
+Text AI Chatbot 1.3
+
+Text-Based Chatbot This text-based chatbot uses the ChatterBot library to provide intelligent and engaging responses. 
+It is trained on custom dialogues and the ChatterBot corpus, enabling it to handle a wide range of conversational topics effectively.
+
+Author: MGC https://github.com/mgc-00/ 
+Updated: 07/02/2025
+
+"""
 
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
